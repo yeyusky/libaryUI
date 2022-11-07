@@ -35,12 +35,14 @@ export default class Clock extends React.Component{
     }
     closeFun() {
         this.setState({
-            visable:false
+            visable:false,
+            visables:false
         })
     }
     handleClickOk() {
         this.setState({
-            visable:false
+            visable:false,
+            visables:false
         })
     }
     render() {
