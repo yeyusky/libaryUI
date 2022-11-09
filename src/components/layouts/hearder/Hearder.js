@@ -18,7 +18,7 @@ export default class Hearder extends React.Component{
     
     render() {
         return ( 
-            <div className='hearder'>
+            <div className='hearder' style={this.props.style}>
                 {this.props.children}
             </div>
         )

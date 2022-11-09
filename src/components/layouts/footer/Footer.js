@@ -18,7 +18,7 @@ export default class Footer extends React.Component{
     
     render() {
         return ( 
-            <div className='footer'>
+            <div className='footer' style={this.props.style}>
                 {this.props.children}
             </div>
         )

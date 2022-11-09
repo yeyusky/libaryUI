@@ -28,7 +28,7 @@ export default class Layout extends React.Component{
     render() {
         const hasSider = this.judeSider()
         return ( 
-            <div className={hasSider ? 'layout isHaschild' : 'layout'}>
+            <div className={hasSider ? 'layout isHaschild' : 'layout'} style={this.props.style}>
                 {this.props.children}
             </div>
         )
